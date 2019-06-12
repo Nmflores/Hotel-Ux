@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <style>
+        @import "node_modules/w3-css/3/w3.css";
+        @import "css/estilo.css";
+    </style>
+
+    <script src="https://kit.fontawesome.com/568a96625b.js"></script>
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="js/escript.js"></script>
+
+    <title id="titulo-subtitulo"></title>
+
+</head>
+
+<body>
+
+
+<div class="w3-row">
+    <div class="w3-cell-row w3-container">
+    <header class=" w3-orange w3-padding-16  w3-center">
+        <hgroup>
+            <h1 id="titulo"></h1>
+            <h2 id="subtitulo"></h2>
+        </hgroup>
+    </header></div>
+</div>
+<div class="w3-row">
+    <nav class="w3-cell w3-container">
+        <ul>
+            <li><a href="">
+                <i class="fas fa-hotel"></i>
+                Hotel Status
+            </a></li>
+            <li><a href="">
+                <i class="fas fa-door-open"></i>
+                Room Status
+            </a></li>
+            <li><a href="">
+                <i class="fas fa-utensils"></i>
+                Room Services Status 
+            </a></li>
+            <li><a href="">
+                <i class="fas fa-suitcase"></i>
+                Reservation Status
+                <div id="status-reservation"></div>
+            </a></li>
+            <li><a href="">
+                <i class="fas fa-comments"></i>
+                Messages
+                <span class="w3-badge" id="quantidade-mensagem"></span>
+            </a></li>
+        </ul>
+    </nav>
+
+    <section class="w3-cell w3-container">
+        <article>
+            <input type="search" name="pesquisa" id="pesquisa" class="w3-input">
+        </article>
+        <article>
+            
+            <h3 class="w3-center">Hotel Status</h3>
+        </article>
+        <article>
+            <h3 class="w3-center">Room Status</h3>
+
+            <div id="quartos"></div>
+        </article>
+        <article>
+            <h3 class="w3-center">Room Services</h3>
+        </article>
+        <article>
+            <h3 class="w3-center">Reservation</h3>
+        </article>
+        <article>
+            <h3 class="w3-center">Messages</h3>
+            <div id="mensagens"> </div>
+        </article>
+    </section>
+</div>
+<div class=" w3-row">
+    <footer class="w3-cell-row w3-mobile w3-orange ww3-padding-16 w3-container">
+        <p>Create by Gustavo and Nicolas.</p>
+    </footer>
+    </div>
+</body>
+
+</html>
